@@ -1,0 +1,30 @@
+{
+ "Random Forest, single month (9 features)": {
+  "OA": 0.6642343026620371,
+  "mIoU": 0.46020848427515243,
+  "mF1": 0.5809869058732989,
+  "IoU Water": 0.876816874400767,
+  "IoU Built-up": 0.6060033175586671,
+  "IoU Tree cover": 0.5421130669066699,
+  "IoU Cropland": 0.4181678804139517,
+  "IoU Grass/Shrub/Wetland": 0.2904274886485814,
+  "IoU Bare/Sparse": 0.027722277722277724,
+  "train_px": 864000.0,
+  "test_px": 442368.0,
+  "fit_s": 212.0
+ },
+ "Random Forest, 4 seasons (36 features)": {
+  "OA": 0.7729673032407407,
+  "mIoU": 0.5731129454616563,
+  "mF1": 0.6858191129167368,
+  "IoU Water": 0.9038076152304609,
+  "IoU Built-up": 0.6475870359920508,
+  "IoU Tree cover": 0.6184361093452002,
+  "IoU Cropland": 0.7660338635197537,
+  "IoU Grass/Shrub/Wetland": 0.4156378600823045,
+  "IoU Bare/Sparse": 0.08717518860016764,
+  "train_px": 216000.0,
+  "test_px": 110592.0,
+  "fit_s": 88.0
+ }
+}

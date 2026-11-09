@@ -24,8 +24,12 @@ Classes: Water · Built-up · Tree cover · Cropland · Grass/Shrub/Wetland · B
 | B · DeepLabV3+ / ResNet-34, ImageNet pretrained | 71.5 % | 0.499 | 0.613 |
 | C · U-Net / ResNet-34 from scratch | 68.2 % | 0.480 | 0.600 |
 | **D · Temporal CNN + LSTM (4 seasons)** | **75.3 %** | **0.541** | **0.657** |
+| Baseline · Random Forest, 1 month (9 pixel features) | 66.4 % | 0.460 | 0.581 |
+| Baseline · Random Forest, 4 seasons (36 pixel features) | 77.3 % | 0.573 | 0.686 |
 
-Variant D feeds four seasonal composites through the U-Net and reads the per-pixel features with an LSTM; it
+The Random Forest baselines (`baselines/random_forest_baseline.py`, scores from a pixel subsample of the test regions) show that
+deep learning wins on single images, while seasonal information matters more than the architecture: a Random Forest on
+four seasons of features slightly beats variant D. Variant D feeds four seasonal composites through the U-Net and reads the per-pixel features with an LSTM; it
 mainly improves cropland (+0.080 IoU) and grassland (+0.066 IoU), which look alike in any single month.
 Case studies (2023, 5.12 × 5.12 km), checked against Google Dynamic World (independent, Sentinel-2 based):
 
