@@ -1,0 +1,13 @@
+# Tested: Python 3.11 + torch 2.5.1 + smp 0.5.0 (training, Linux/H200)
+#         Python 3.14 + torch 2.15.0 (CPU) + smp 0.6.0 (prototype, Windows 11)
+earthengine-api>=1.7
+pyproj>=3.7
+numpy>=2.0
+pandas>=3.0
+matplotlib>=3.10
+seaborn>=0.13
+tqdm>=4.66
+torch>=2.5
+torchvision>=0.20
+segmentation-models-pytorch>=0.5,<0.7
+streamlit>=1.66

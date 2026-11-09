@@ -1,0 +1,36 @@
+{
+  "model": "single-month U-Net",
+  "location": "pune",
+  "lat": 18.5204,
+  "lon": 73.8567,
+  "start": "Jan 2023",
+  "end": "Dec 2023",
+  "area_km": 5.12,
+  "scenes_per_month": {
+    "Jan 2023": 2,
+    "Feb 2023": 1,
+    "Mar 2023": 1,
+    "Apr 2023": 1,
+    "May 2023": 2,
+    "Jun 2023": 3,
+    "Jul 2023": 1,
+    "Aug 2023": 2,
+    "Sep 2023": 1,
+    "Oct 2023": 0,
+    "Nov 2023": 1,
+    "Dec 2023": 2
+  },
+  "changed_pixels_first_last_raw_%": 6.11,
+  "mean_abs_mom_change_raw_pp": 1.073,
+  "changed_pixels_first_last_smoothed_%": 3.62,
+  "mean_abs_mom_change_smoothed_pp": 0.365,
+  "agreement_with_dynamic_world_%": 89.67,
+  "per_class_recall_vs_DW": {
+    "Water": 0.617,
+    "Built-up": 0.991,
+    "Tree cover": 0.128,
+    "Cropland": 0.018,
+    "Grass/Shrub/Wetland": 0.015,
+    "Bare/Sparse": 0.12
+  }
+}

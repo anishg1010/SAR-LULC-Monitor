@@ -1,0 +1,36 @@
+{
+  "model": "temporal CNN+LSTM",
+  "location": "mannheim_temporal",
+  "lat": 49.4875,
+  "lon": 8.466,
+  "start": "Jan 2023",
+  "end": "Dec 2023",
+  "area_km": 5.12,
+  "scenes_per_month": {
+    "Jan 2023": 8,
+    "Feb 2023": 7,
+    "Mar 2023": 8,
+    "Apr 2023": 7,
+    "May 2023": 8,
+    "Jun 2023": 8,
+    "Jul 2023": 8,
+    "Aug 2023": 7,
+    "Sep 2023": 8,
+    "Oct 2023": 7,
+    "Nov 2023": 7,
+    "Dec 2023": 8
+  },
+  "changed_pixels_first_last_raw_%": 4.63,
+  "mean_abs_mom_change_raw_pp": 0.33,
+  "changed_pixels_first_last_smoothed_%": 3.62,
+  "mean_abs_mom_change_smoothed_pp": 0.143,
+  "agreement_with_dynamic_world_%": 87.97,
+  "per_class_recall_vs_DW": {
+    "Water": 0.872,
+    "Built-up": 0.886,
+    "Tree cover": 0.906,
+    "Cropland": 0.0,
+    "Grass/Shrub/Wetland": 0.439,
+    "Bare/Sparse": 0.0
+  }
+}

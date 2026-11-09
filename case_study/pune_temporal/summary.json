@@ -1,0 +1,36 @@
+{
+  "model": "temporal CNN+LSTM",
+  "location": "pune_temporal",
+  "lat": 18.5204,
+  "lon": 73.8567,
+  "start": "Jan 2023",
+  "end": "Dec 2023",
+  "area_km": 5.12,
+  "scenes_per_month": {
+    "Jan 2023": 2,
+    "Feb 2023": 1,
+    "Mar 2023": 1,
+    "Apr 2023": 1,
+    "May 2023": 2,
+    "Jun 2023": 3,
+    "Jul 2023": 1,
+    "Aug 2023": 2,
+    "Sep 2023": 1,
+    "Oct 2023": 0,
+    "Nov 2023": 1,
+    "Dec 2023": 2
+  },
+  "changed_pixels_first_last_raw_%": 4.69,
+  "mean_abs_mom_change_raw_pp": 0.452,
+  "changed_pixels_first_last_smoothed_%": 4.32,
+  "mean_abs_mom_change_smoothed_pp": 0.248,
+  "agreement_with_dynamic_world_%": 86.61,
+  "per_class_recall_vs_DW": {
+    "Water": 0.71,
+    "Built-up": 0.955,
+    "Tree cover": 0.104,
+    "Cropland": 0.0,
+    "Grass/Shrub/Wetland": 0.0,
+    "Bare/Sparse": 0.2
+  }
+}
